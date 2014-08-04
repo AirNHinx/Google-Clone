@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 
+* { 
+  outline: 1px solid black;
+}
+*/
+
+.right-corner-links {
+	display:block;
+	text-align:right;
+	font-family: helvetica;
+	padding-top:10px;
+	clear:both;
+}
+
+li {
+	display:inline-block;
+	margin-right: 1.2em;
+	vertical-align:middle;
+	font-size: 0.8em;
+}
+
+a {
+	text-decoration:none;
+	margin:15px 15px 0 0;
+	color:black;
+	font-size:14px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.login {
+	background:linear-gradient(to bottom, #4285F4, #4683EB);
+	border-radius: 4px;
+	color:white;
+	font-weight: bolder;
+	border:none;
+	padding:9px 13px;
+
+}
+
+.login:hover {
+	border-top:0.5px solid #008B8B;
+	border-right:2px solid #008B8B;
+	border-bottom:2px solid #008B8B;
+	border-left:0.5px solid #008B8B;
+	
+
+}
+
+
+.logo {
+	display:block;
+	margin-left:38%;
+	padding:16% 0 2% 0;
+	height:25%;
+	width:25%;
+}
+
+.logo img {
+	height:;
+}
+
+
+
+input {
+	border:1px solid lightgray;
+	width:55%;
+	height: 35px;
+	margin-left: 25%;
+	background-image: url(images/microphone.png);
+	background-size: 35px;
+	background-repeat:no-repeat;
+	background-position: 99% 50%;
+	font-size:18px;
+}
+
+
+.buttons {
+	margin:2% 0 0 46%;
+
+}
+
+button {
+	padding:5px;
+	background: linear-gradient(to bottom, #F2F2F2,#F8F8F8);
+	font-weight: bolder;
+	border-radius: 4px;
+
+}
+
+button:hover {
+	border-top:1px solid #A9A9A9;
+	border-right:2px solid #A9A9A9;
+	border-bottom:2px solid #A9A9A9;
+	border-left:1px solid #A9A9A9;
+	
+
+}
+
+footer {
+	position:fixed;
+	background-color: #F5F5F5;
+	min-width:800px;
+	width:100%;
+	margin-top:19.5%;
+    padding-top:0.20%;
+    height:2.3em;
+    bottom:0em;
+    font-family: Arial;
+    border-top: 0.5px solid #A9A9A9;
+
+}
+
+.left-footer {
+	display:inline-block;
+		margin:5px 0 0 20px;
+}
+
+.right-footer {
+	display:inline-block;
+	float:right;
+	margin:0 5px 10px 0;
+	padding-bottom: 10px;
+	vertical-align: middle;
+}
